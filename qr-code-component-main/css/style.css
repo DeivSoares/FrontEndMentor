@@ -12,12 +12,17 @@
 * {
     margin: 0;
     padding: 0;
+    /* -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; */
+    scroll-behavior: smooth;
 }
 
 html,
 body {
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 body {
@@ -31,6 +36,7 @@ body div.content-web {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
     width: 100%;
     height: 100%;
 }
@@ -43,7 +49,7 @@ body div.content-web main {
     border-radius: 2.5rem;
     width: 30rem;
     height: 50rem;
-    margin: auto;
+    /* margin: auto; */
     padding: 1.5rem;
 }
 
