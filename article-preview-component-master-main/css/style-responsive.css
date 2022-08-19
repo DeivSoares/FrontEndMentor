@@ -3,7 +3,7 @@
     body div.content-web main {
         flex-direction: column;
         width: 45rem;
-        border-radius: 2rem 2rem 0rem 0rem;
+        border-radius: 2rem;
     }
 
     body div.content-web main picture img {
