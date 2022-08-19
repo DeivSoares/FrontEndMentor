@@ -21,7 +21,7 @@
     }
 
     body div.content-web main aside.info-box {
-        margin-top: 3rem;
+        margin-top: 1.5rem;
         padding-inline: 5rem;
     }
 
@@ -31,14 +31,17 @@
 
     body div.content-web main aside.info-box p {
         font-size: 2.3rem;
+        margin-top: 1.5rem;
     }
 
     body div.content-web main aside.info-box div.prices-box {
         justify-content: flex-start;
+        margin-top: 1.5rem;
     }
 
     body div.content-web main aside.info-box button {
-        margin-bottom: 2.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
     }
 
 
