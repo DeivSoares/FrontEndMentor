@@ -72,7 +72,7 @@ body main h2 {
 }
 
 body main p{
-    color: var(--Light-gray);
+    color: var(--Grayish-blue);
     width: 90%;
     text-align: center;
     font-weight: bold;
