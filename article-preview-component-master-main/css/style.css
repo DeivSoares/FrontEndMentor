@@ -30,7 +30,7 @@ body {
     background-color: var(--Cream);
 }
 
-body div.content-web {
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,37 +40,38 @@ body div.content-web {
     height: 100%;
 }
 
-body div.content-web main {
+body main {
     display: flex;
     align-items: center;
     flex-direction: row;
     background-color: var(--White);
     border-radius: 1rem 1rem 1rem 1rem;
     width: 57rem;
+    margin: 2rem;
 }
 
-body div.content-web main picture img {
+body main picture img {
     width: 25rem;
     border-radius: 1rem 0rem 0rem 1rem;
 }
 
-body div.content-web main picture img.mobile {
+body main picture img.mobile {
     display: none;
 }
 
-body div.content-web main aside.info-box {
+body main aside.info-box {
     /* display: flex; */
     /* flex-direction: column; */
     /* height: 100%; */
     padding-inline: 2rem;
 }
 
-body div.content-web main aside.info-box h1 {
+body main aside.info-box h1 {
     color: var(--VeryDarkBlue);
     font-size: 3.1rem;
 }
 
-body div.content-web main aside.info-box h5 {
+body main aside.info-box h5 {
     font-family: 'Montserrat', sans-serif;
     color: var(--DarkGrayishBlue);
     text-transform: uppercase;
@@ -79,13 +80,13 @@ body div.content-web main aside.info-box h5 {
 
 }
 
-body div.content-web main aside.info-box p {
+body main aside.info-box p {
     font-family: 'Montserrat', sans-serif;
     color: var(--DarkGrayishBlue);
     margin-top: 3rem;
 }
 
-body div.content-web main aside.info-box div.prices-box {
+body main aside.info-box div.prices-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,16 +94,16 @@ body div.content-web main aside.info-box div.prices-box {
     margin-top: 3rem;
 }
 
-body div.content-web main aside.info-box div.prices-box h1 {
+body main aside.info-box div.prices-box h2 {
     color: var(--Darkcyan);
 }
 
-body div.content-web main aside.info-box div.prices-box h3 {
+body main aside.info-box div.prices-box h3 {
     color: var(--DarkGrayishBlue);
     text-decoration: line-through;
 }
 
-body div.content-web main aside.info-box button {
+body main aside.info-box button {
     display: flex;
     align-items: center;
     justify-content: center;

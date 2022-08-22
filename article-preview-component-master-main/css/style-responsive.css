@@ -1,45 +1,45 @@
 @media (max-width: 1024px){
 
-    body div.content-web main {
+    body main {
         flex-direction: column;
-        width: 45rem;
+        width: 95%;
         border-radius: 2rem;
     }
 
-    body div.content-web main picture img {
+    body main picture img {
         width: 100%;
         height: 30rem;
         border-radius: 2rem 2rem 0rem 0rem;
     }
 
-    body div.content-web main picture img.desktop {
+    body main picture img.desktop {
         display: none;
     }
 
-    body div.content-web main picture img.mobile {
+    body main picture img.mobile {
         display: block;
     }
 
-    body div.content-web main aside.info-box {
+    body main aside.info-box {
         margin-top: 1.5rem;
-        padding-inline: 5rem;
+        padding-inline: 1rem;
     }
 
-    body div.content-web main aside.info-box h1 {
+    body main aside.info-box h1 {
         font-size: 3.5rem;
     }
 
-    body div.content-web main aside.info-box p {
+    body main aside.info-box p {
         font-size: 2.3rem;
         margin-top: 1.5rem;
     }
 
-    body div.content-web main aside.info-box div.prices-box {
+    body main aside.info-box div.prices-box {
         justify-content: flex-start;
         margin-top: 1.5rem;
     }
 
-    body div.content-web main aside.info-box button {
+    body main aside.info-box button {
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
     }
