@@ -68,14 +68,14 @@ body main div.container div.overlay {
     height: 92%;
     opacity: 0;
     transition: .3s ease;
-  }
+}
 
-  body main div.container:hover div.overlay{
+body main div.container:hover div.overlay {
     opacity: 1;
     cursor: pointer;
-  }
+}
 
-  body main div.container div.overlay img.icon {
+body main div.container div.overlay img.icon {
     color: white;
     position: absolute;
     width: 4rem;
@@ -85,7 +85,7 @@ body main div.container div.overlay {
     -ms-transform: translate(-50%, -50%);
     font-size: 100px;
     text-align: center;
-  }
+}
 
 
 body main h1 {
