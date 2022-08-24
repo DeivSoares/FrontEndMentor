@@ -39,7 +39,7 @@ body {
 
 body main {
     background-color: var(--Very-dark-blue-card-BG);
-    width: 30rem;
+    max-width: 30rem;
     padding: 2rem;
     border-radius: 1.5rem;
 }
