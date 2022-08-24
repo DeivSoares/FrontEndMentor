@@ -41,6 +41,7 @@ body main {
     width: 30rem;
     padding: 2rem;
     border-radius: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 body main picture {
@@ -69,13 +70,13 @@ body main picture img.view:hover {
     cursor: pointer;
 }
 
-@keyframes Teste{
-    from{
+@keyframes Teste {
+    from {
         opacity: 0;
     }
 
-    to{
-    opacity: 1;
+    to {
+        opacity: 1;
     }
 }
 
