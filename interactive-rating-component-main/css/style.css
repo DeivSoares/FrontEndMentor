@@ -11,7 +11,7 @@
     --Very-Dark-Blue: hsl(216, 12%, 8%);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -40,7 +40,7 @@ body main {
     border-radius: 1.5rem;
 }
 
-body main div.picture{
+body main div.picture {
     width: 2.5rem;
     height: 2.5rem;
     background-color: hsl(210, 4%, 29%);
@@ -52,20 +52,20 @@ body main div.picture{
     justify-content: center;
 }
 
-body main div.picture img{
+body main div.picture img {
     width: 1rem;
 }
 
-body main h1{
+body main h1 {
     margin-block: 1rem;
 }
 
-body main p{
+body main p {
     color: var(--Light-Grey);
     margin-bottom: 2rem;
 }
 
-body main section.rates{
+body main section.rates {
     display: flex;
     text-align: center;
     align-items: center;
@@ -74,7 +74,7 @@ body main section.rates{
     margin-bottom: 2rem;
 }
 
-body main button{
+body main button {
     background-color: hsl(210, 4%, 29%);
     color: var(--Light-Grey);
     width: 3rem;
@@ -84,7 +84,7 @@ body main button{
     text-align: center;
 }
 
-body main button:hover{
+body main button:hover {
     background-color: var(--Medium-Grey);
     color: white;
     transition: 0.5s;
@@ -92,12 +92,12 @@ body main button:hover{
     cursor: pointer;
 }
 
-body main div.button{
+body main div.button {
     width: 100%;
     text-align: center;
 }
 
-body main input{
+body main input {
     background-color: var(--Orange);
     color: var(--White);
     border: none;
@@ -110,15 +110,44 @@ body main input{
     cursor: pointer;
 }
 
-body main input:hover{
+body main input:hover {
     background-color: var(--White);
     color: var(--Orange);
     transition: 1s;
 }
 
 
-section.resultados {
-    display: none;
+body section.resultados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 20rem;
+    padding: 1.5rem;
+    background-color: var(--Dark-Blue);
+    border-radius: 1.5rem;
+}
+
+body section.resultados h1 {
+    margin-bottom: 1rem;
+}
+
+body section.resultados p {
+    color: var(--Light-Grey);
+}
+
+body section.resultados div#result {
+    background-color: hsl(210, 4%, 29%);
+    color: var(--Orange);
+    border-radius: 2rem;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+
+    margin-bottom: 1.5rem;
+}
+
+body section.resultados div#result div#rate {
+    display: inline-block;
 }
 
 .attribution {

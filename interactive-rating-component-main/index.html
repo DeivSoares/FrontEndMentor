@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <title>Frontend Mentor | Interactive rating component</title>
 </head>
-<body>
+<body onload="Init()">
 
   <!-- Rating state start -->
 
@@ -21,12 +21,12 @@
         to help us improve our offering!
       </p>
 
-        <section class="rates">
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>4</button>
-          <button>5</button>
+        <section onclick="MarkRate()" class="rates">
+          <button id="btn1">1</button>
+          <button id="btn2">2</button>
+          <button id="btn3">3</button>
+          <button id="btn4">4</button>
+          <button id="btn5">5</button>
         </section>
 
         <div class="button"><input type="submit" value="Submit"></input></div>
@@ -36,8 +36,11 @@
 
   <!-- Thank you state start -->
 
-  <section class="resultados">
-    <div id="result">You selected <!-- Add rating here --> out of 5</div>
+  <section id="resultados" class="resultados">
+<div class="picture">
+  <img src="images/illustration-thank-you.svg" alt="">
+</div>
+    <div id="result">You selected <div id="rate"></div> out of 5</div>
 
     <h1>Thank you!</h1>
 
